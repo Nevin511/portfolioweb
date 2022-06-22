@@ -19,3 +19,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.abou{
+  background-image:url('./tho.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

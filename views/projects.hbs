@@ -1,3 +1,136 @@
 <h1>My projects</h1>
-<h1>created using express generator</h1>
+<style>@mixin transition($x, $y, $z){
+  transition: $x $y $z;
+  -moz-transition: $x $y $z;
+  -ms-transition: $x $y $z;
+  -webkit-transition: $x $y $z;
+  -o-transition: $x $y $z;
+}
+
+@mixin rotate($x){
+  -ms-transform: rotate($x); /* IE 9 */
+   -webkit-transform: rotate($x); /* Chrome, Safari, Opera */
+   transform: rotate($x);
+}
+
+@mixin scale($x){
+  transform: scale($x);
+  -moz-transform: scale($x);
+  -webkit-transform: scale($x);
+  -o-transform: scale($x);
+  -ms-transform: scale($x); 
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  flex-flow: row wrap;
+  // overflow: hidden;
+}
+
+//Use this class as wrapper to keep content INSIDE the card
+.flex-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background-color: aliceblue;
+  display: inline-block;
+  max-width: 300px;
+  min-width: 150px;
+  min-height: 400px;
+  content: "";
+  margin: 1rem 1rem 0 0;
+  box-shadow: 0 1px 3px 0 rgba(58, 62, 75, 0.25);
+  flex: 0 0 25%;
+  align-items: flex-start;
+  align-content: flex-start;
+  border-radius: .2rem;
+  @include transition(all, 250ms, ease-in-out);
+  
+ 
+}
+
+.card__title {
+  color: @gray-dark;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+
+
+</style>
+<body>
+<section class="abou">
+<br>
+<br>
+<br>
+
+<div class="flex-row">
+  <div class="card">
+	  
+	  <div class="card__content">
+        <div class="card__title">Movie Details Website</div>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+	<br><br>
+        <p class="card__text">A Movie Details Website Used to Showcase Movie Details like Review,Poster With links to Review in imdb Built With Html,CSS, JS, Jquery
+
+	</p>
+       
+      </div>
+  </div>
+  <div class="card">
+	  
+	  <div class="card__content">
+        <div class="card__title">Retro Telephones Website</div>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+	<br><br>
+        <p class="card__text">A WebSite Used To Book Telephones  Built With Html,CSS, JS, Jquery
+       
+      </div></div>
+      <div class="card">
+	  
+	  <div class="card__content">
+        <div class="card__title">Photogratphy Portfolio Page</div>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	<br>
+	<br><br>
+	
+        <p class="card__text">A Website To Showcase the Portfolio Of My Photograph Built With Html,CSS, JS, Jquery</p>
+       
+      </div></div>
+ 
+ 
+</div>
+<br>
+<br>
+<br>
+</section></body>
+
+
+
 <h2>Contact us at {{email}}</h2>
