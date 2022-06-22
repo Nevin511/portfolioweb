@@ -24,3 +24,22 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.imgss{
+  background-image:url('./filim.jpg') ;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.imgss1{
+  background-image:url('./ph.jpg') ;
+  background-repeat: no-repeat;
+  background-size: contain;
+}.imgss2{
+  background-image:url('./gal.jpg') ;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.sunny{
+  background-image:url('./Nevin_Image.jpeg') ;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
