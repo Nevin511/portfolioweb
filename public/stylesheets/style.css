@@ -1,8 +1,21 @@
 body {
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*background-image: url(./luca.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  padding-bottom: 25vh;
+  
+  
 }
 
 a {
   color: #00B7FF;
+}
+.inde{
+  background-image:url('./luca.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
